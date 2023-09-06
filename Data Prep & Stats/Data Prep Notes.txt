@@ -1,0 +1,41 @@
+Changes in Excel (hhpub Pipeline): [Data Preparation 1/3]
+Sequence: 
+	Raw -> Compressed -> Clean -> Export
+
+Raw Data -> Compressed Data:
+- In this step we reduced our scope of focus
+	to hone in on a few related variables sets
+- The variable sets were color coded for distinction
+
+Compressed Data -> Clean Data:
+- In this step we converted the numerical data to its 
+	corresponding string representations in order 
+	to improve legability. This was useful for 
+	interpreting and extracting meaning from 
+	the data at later stages.
+- Improved the legibility of the column labels
+- Properly spaced out the columns for clarity
+
+Clean Data -> Export Data
+- Column label updates was backpropogated on a copy of
+	the'Compressed' Data Set to create the last
+	worksheet, Export Data
+- Extra columns are removed from Clean + Export.
+- Variations of null values were identified and thier 
+	corresponding rows removed from Clean + Export
+- Export Data was then imported into jupyter notebooks
+	for the final data prep.
+
+Python Jupyter Notebook: [Data Prep 2/3]
+Sequence:
+	Import w/ Pandas -> Split by Urban/Rural -> Sampling & Rebalance -> Export to 'samples.xlsx'
+
+Data Prep Output: [Data Prep 3/3]
+Sequence: 
+	Verify Output from Jupyter Notebook -> Combine Rural & Urban Samples in a third 'Stacked' Sheet 
+	-> Saved file as 'Data Prep Output'
+
+Output: [Intro to Data Analysis]
+Calculated Correlation between Vehicle Availability Variables ->
+	Summary Statistics for Internet Use -> Single Factor ANOVA for the types of transportation for
+	Both Rural & Urban Data Samples as well as the combined samples.
