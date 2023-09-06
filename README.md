@@ -9,7 +9,7 @@ Clean Data:
 
 ![Clean Data](https://github.com/norbertolimonjr/Cali-Bikes-Exploratory-Analysis-Project/assets/68612270/26c80e21-6928-41be-9c48-5b5344de0678)
 
-Correlation:
+Pairwise Correlation:
 
 ![Correlation](https://github.com/norbertolimonjr/Cali-Bikes-Exploratory-Analysis-Project/assets/68612270/ec4cbfec-cb32-48e0-b022-b454c7ae7353)
 
