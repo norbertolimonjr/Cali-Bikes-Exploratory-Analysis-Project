@@ -1,5 +1,3 @@
-Data cleaning and exploratory analysis of bicycle utility and related factors in the state of California. Utilizing Excel, Python, Jupyter and Tableau
-
 Summary Analysis Tableau Dashboard:
 
 ![image](https://github.com/norbertolimonjr/Cali-Bikes-Exploratory-Analysis-Project/assets/68612270/bcdf7786-b4aa-4eff-a30e-56558a419dce)
